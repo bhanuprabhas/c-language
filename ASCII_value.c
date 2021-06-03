@@ -1,12 +1,12 @@
-#include<studio.h>
+#include<stdio.h>
 #include<conio.h>
-Main()
+int main()
 {
-Char ch
+char ch;
 //Here "ch" variable gets memory allocation with empty.
-Printf("enter one char:");
-Scanf("%c"&ch);
+printf("enter one char:");
+scanf("%c",&ch);
 //After scanning the value goes to ch variable memory.
 //By using & you address the character in variable 'ch'.
-Printf("ASCII value is:%d",ch);
+printf("ASCII value is:%d",ch);
 }
